@@ -1,0 +1,5 @@
+<launch>
+<!-- Start Service Server for /move_bb8_in_square_custom service -->
+    <node pkg ="robot_obst_avoid" type = "robot_obst_avoid.py" name="obst_avoid_node" output="screen" >
+    </node>
+</launch>
